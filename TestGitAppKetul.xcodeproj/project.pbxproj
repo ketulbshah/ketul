@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E0991C61812915E00970C54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0991C51812915E00970C54 /* UIKit.framework */; };
+		9E0991C81812915E00970C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0991C71812915E00970C54 /* Foundation.framework */; };
+		9E0991CA1812915E00970C54 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0991C91812915E00970C54 /* CoreGraphics.framework */; };
+		9E0991D01812915E00970C54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E0991CE1812915E00970C54 /* InfoPlist.strings */; };
+		9E0991D21812915E00970C54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0991D11812915E00970C54 /* main.m */; };
+		9E0991D61812915E00970C54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0991D51812915E00970C54 /* AppDelegate.m */; };
+		9E0991D91812915F00970C54 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0991D81812915F00970C54 /* MasterViewController.m */; };
+		9E0991DC1812915F00970C54 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0991DB1812915F00970C54 /* DetailViewController.m */; };
+		9E0991DF1812915F00970C54 /* MasterViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0991DD1812915F00970C54 /* MasterViewController_iPhone.xib */; };
+		9E0991E21812915F00970C54 /* MasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0991E01812915F00970C54 /* MasterViewController_iPad.xib */; };
+		9E0991E51812915F00970C54 /* DetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0991E31812915F00970C54 /* DetailViewController_iPhone.xib */; };
+		9E0991E81812915F00970C54 /* DetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0991E61812915F00970C54 /* DetailViewController_iPad.xib */; };
+		9E0991F01812915F00970C54 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0991EF1812915F00970C54 /* SenTestingKit.framework */; };
+		9E0991F11812915F00970C54 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0991C51812915E00970C54 /* UIKit.framework */; };
+		9E0991F21812915F00970C54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0991C71812915E00970C54 /* Foundation.framework */; };
+		9E0991FA1812915F00970C54 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E0991F81812915F00970C54 /* InfoPlist.strings */; };
+		9E0991FD1812915F00970C54 /* TestGitAppKetulTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0991FC1812915F00970C54 /* TestGitAppKetulTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E0991F31812915F00970C54 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E0991B81812915E00970C54 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E0991C01812915E00970C54;
+			remoteInfo = TestGitAppKetul;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E0991C11812915E00970C54 /* TestGitAppKetul.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGitAppKetul.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0991C51812915E00970C54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9E0991C71812915E00970C54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9E0991C91812915E00970C54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9E0991CD1812915E00970C54 /* TestGitAppKetul-Info.plist */ = {isa = PBXFileReference; path = "TestGitAppKetul-Info.plist"; sourceTree = "<group>"; };
+		9E0991CF1812915E00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E0991D11812915E00970C54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E0991D31812915E00970C54 /* TestGitAppKetul-Prefix.pch */ = {isa = PBXFileReference; path = "TestGitAppKetul-Prefix.pch"; sourceTree = "<group>"; };
+		9E0991D41812915E00970C54 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E0991D51812915E00970C54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E0991D71812915E00970C54 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		9E0991D81812915F00970C54 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		9E0991DA1812915F00970C54 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		9E0991DB1812915F00970C54 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		9E0991DE1812915F00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
+		9E0991E11812915F00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
+		9E0991E41812915F00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPhone.xib; sourceTree = "<group>"; };
+		9E0991E71812915F00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
+		9E0991EE1812915F00970C54 /* TestGitAppKetulTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitAppKetulTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0991EF1812915F00970C54 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9E0991F71812915F00970C54 /* TestGitAppKetulTests-Info.plist */ = {isa = PBXFileReference; path = "TestGitAppKetulTests-Info.plist"; sourceTree = "<group>"; };
+		9E0991F91812915F00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9E0991FB1812915F00970C54 /* TestGitAppKetulTests.h */ = {isa = PBXFileReference; path = TestGitAppKetulTests.h; sourceTree = "<group>"; };
+		9E0991FC1812915F00970C54 /* TestGitAppKetulTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitAppKetulTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E0991BE1812915E00970C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0991C61812915E00970C54 /* UIKit.framework in Frameworks */,
+				9E0991C81812915E00970C54 /* Foundation.framework in Frameworks */,
+				9E0991CA1812915E00970C54 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0991EA1812915F00970C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0991F01812915F00970C54 /* SenTestingKit.framework in Frameworks */,
+				9E0991F11812915F00970C54 /* UIKit.framework in Frameworks */,
+				9E0991F21812915F00970C54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E0991B61812915E00970C54 = {
+			isa = PBXGroup;
+			children = (
+				9E0991CB1812915E00970C54 /* TestGitAppKetul */,
+				9E0991F51812915F00970C54 /* TestGitAppKetulTests */,
+				9E0991C41812915E00970C54 /* Frameworks */,
+				9E0991C21812915E00970C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E0991C21812915E00970C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E0991C11812915E00970C54 /* TestGitAppKetul.app */,
+				9E0991EE1812915F00970C54 /* TestGitAppKetulTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E0991C41812915E00970C54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E0991C51812915E00970C54 /* UIKit.framework */,
+				9E0991C71812915E00970C54 /* Foundation.framework */,
+				9E0991C91812915E00970C54 /* CoreGraphics.framework */,
+				9E0991EF1812915F00970C54 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E0991CB1812915E00970C54 /* TestGitAppKetul */ = {
+			isa = PBXGroup;
+			children = (
+				9E0991D41812915E00970C54 /* AppDelegate.h */,
+				9E0991D51812915E00970C54 /* AppDelegate.m */,
+				9E0991D71812915E00970C54 /* MasterViewController.h */,
+				9E0991D81812915F00970C54 /* MasterViewController.m */,
+				9E0991DA1812915F00970C54 /* DetailViewController.h */,
+				9E0991DB1812915F00970C54 /* DetailViewController.m */,
+				9E0991DD1812915F00970C54 /* MasterViewController_iPhone.xib */,
+				9E0991E01812915F00970C54 /* MasterViewController_iPad.xib */,
+				9E0991E31812915F00970C54 /* DetailViewController_iPhone.xib */,
+				9E0991E61812915F00970C54 /* DetailViewController_iPad.xib */,
+				9E0991CC1812915E00970C54 /* Supporting Files */,
+			);
+			path = TestGitAppKetul;
+			sourceTree = "<group>";
+		};
+		9E0991CC1812915E00970C54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E0991CD1812915E00970C54 /* TestGitAppKetul-Info.plist */,
+				9E0991CE1812915E00970C54 /* InfoPlist.strings */,
+				9E0991D11812915E00970C54 /* main.m */,
+				9E0991D31812915E00970C54 /* TestGitAppKetul-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E0991F51812915F00970C54 /* TestGitAppKetulTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E0991FB1812915F00970C54 /* TestGitAppKetulTests.h */,
+				9E0991FC1812915F00970C54 /* TestGitAppKetulTests.m */,
+				9E0991F61812915F00970C54 /* Supporting Files */,
+			);
+			path = TestGitAppKetulTests;
+			sourceTree = "<group>";
+		};
+		9E0991F61812915F00970C54 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E0991F71812915F00970C54 /* TestGitAppKetulTests-Info.plist */,
+				9E0991F81812915F00970C54 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E0991C01812915E00970C54 /* TestGitAppKetul */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E0992001812915F00970C54 /* Build configuration list for PBXNativeTarget "TestGitAppKetul" */;
+			buildPhases = (
+				9E0991BD1812915E00970C54 /* Sources */,
+				9E0991BE1812915E00970C54 /* Frameworks */,
+				9E0991BF1812915E00970C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestGitAppKetul;
+			productName = TestGitAppKetul;
+			productReference = 9E0991C11812915E00970C54 /* TestGitAppKetul.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E0991ED1812915F00970C54 /* TestGitAppKetulTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E0992031812915F00970C54 /* Build configuration list for PBXNativeTarget "TestGitAppKetulTests" */;
+			buildPhases = (
+				9E0991E91812915F00970C54 /* Sources */,
+				9E0991EA1812915F00970C54 /* Frameworks */,
+				9E0991EB1812915F00970C54 /* Resources */,
+				9E0991EC1812915F00970C54 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E0991F41812915F00970C54 /* PBXTargetDependency */,
+			);
+			name = TestGitAppKetulTests;
+			productName = TestGitAppKetulTests;
+			productReference = 9E0991EE1812915F00970C54 /* TestGitAppKetulTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E0991B81812915E00970C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9E0991BB1812915E00970C54 /* Build configuration list for PBXProject "TestGitAppKetul" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9E0991B61812915E00970C54;
+			productRefGroup = 9E0991C21812915E00970C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E0991C01812915E00970C54 /* TestGitAppKetul */,
+				9E0991ED1812915F00970C54 /* TestGitAppKetulTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E0991BF1812915E00970C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0991D01812915E00970C54 /* InfoPlist.strings in Resources */,
+				9E0991DF1812915F00970C54 /* MasterViewController_iPhone.xib in Resources */,
+				9E0991E21812915F00970C54 /* MasterViewController_iPad.xib in Resources */,
+				9E0991E51812915F00970C54 /* DetailViewController_iPhone.xib in Resources */,
+				9E0991E81812915F00970C54 /* DetailViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0991EB1812915F00970C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0991FA1812915F00970C54 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E0991EC1812915F00970C54 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E0991BD1812915E00970C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0991D21812915E00970C54 /* main.m in Sources */,
+				9E0991D61812915E00970C54 /* AppDelegate.m in Sources */,
+				9E0991D91812915F00970C54 /* MasterViewController.m in Sources */,
+				9E0991DC1812915F00970C54 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0991E91812915F00970C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E0991FD1812915F00970C54 /* TestGitAppKetulTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E0991F41812915F00970C54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E0991C01812915E00970C54 /* TestGitAppKetul */;
+			targetProxy = 9E0991F31812915F00970C54 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E0991CE1812915E00970C54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E0991CF1812915E00970C54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9E0991DD1812915F00970C54 /* MasterViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E0991DE1812915F00970C54 /* en */,
+			);
+			name = MasterViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9E0991E01812915F00970C54 /* MasterViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E0991E11812915F00970C54 /* en */,
+			);
+			name = MasterViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		9E0991E31812915F00970C54 /* DetailViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E0991E41812915F00970C54 /* en */,
+			);
+			name = DetailViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		9E0991E61812915F00970C54 /* DetailViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E0991E71812915F00970C54 /* en */,
+			);
+			name = DetailViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		9E0991F81812915F00970C54 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E0991F91812915F00970C54 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E0991FE1812915F00970C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E0991FF1812915F00970C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E0992011812915F00970C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGitAppKetul/TestGitAppKetul-Prefix.pch";
+				INFOPLIST_FILE = "TestGitAppKetul/TestGitAppKetul-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9E0992021812915F00970C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGitAppKetul/TestGitAppKetul-Prefix.pch";
+				INFOPLIST_FILE = "TestGitAppKetul/TestGitAppKetul-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9E0992041812915F00970C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestGitAppKetul.app/TestGitAppKetul";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGitAppKetul/TestGitAppKetul-Prefix.pch";
+				INFOPLIST_FILE = "TestGitAppKetulTests/TestGitAppKetulTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9E0992051812915F00970C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestGitAppKetul.app/TestGitAppKetul";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestGitAppKetul/TestGitAppKetul-Prefix.pch";
+				INFOPLIST_FILE = "TestGitAppKetulTests/TestGitAppKetulTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E0991BB1812915E00970C54 /* Build configuration list for PBXProject "TestGitAppKetul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0991FE1812915F00970C54 /* Debug */,
+				9E0991FF1812915F00970C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E0992001812915F00970C54 /* Build configuration list for PBXNativeTarget "TestGitAppKetul" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0992011812915F00970C54 /* Debug */,
+				9E0992021812915F00970C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E0992031812915F00970C54 /* Build configuration list for PBXNativeTarget "TestGitAppKetulTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E0992041812915F00970C54 /* Debug */,
+				9E0992051812915F00970C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E0991B81812915E00970C54 /* Project object */;
+}
