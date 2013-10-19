@@ -41,15 +41,15 @@
 		9E0991C51812915E00970C54 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		9E0991C71812915E00970C54 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9E0991C91812915E00970C54 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		9E0991CD1812915E00970C54 /* TestGitAppKetul-Info.plist */ = {isa = PBXFileReference; path = "TestGitAppKetul-Info.plist"; sourceTree = "<group>"; };
+		9E0991CD1812915E00970C54 /* TestGitAppKetul-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGitAppKetul-Info.plist"; sourceTree = "<group>"; };
 		9E0991CF1812915E00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E0991D11812915E00970C54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9E0991D31812915E00970C54 /* TestGitAppKetul-Prefix.pch */ = {isa = PBXFileReference; path = "TestGitAppKetul-Prefix.pch"; sourceTree = "<group>"; };
-		9E0991D41812915E00970C54 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E0991D31812915E00970C54 /* TestGitAppKetul-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestGitAppKetul-Prefix.pch"; sourceTree = "<group>"; };
+		9E0991D41812915E00970C54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9E0991D51812915E00970C54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9E0991D71812915E00970C54 /* MasterViewController.h */ = {isa = PBXFileReference; path = MasterViewController.h; sourceTree = "<group>"; };
+		9E0991D71812915E00970C54 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		9E0991D81812915F00970C54 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		9E0991DA1812915F00970C54 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		9E0991DA1812915F00970C54 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		9E0991DB1812915F00970C54 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		9E0991DE1812915F00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPhone.xib; sourceTree = "<group>"; };
 		9E0991E11812915F00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController_iPad.xib; sourceTree = "<group>"; };
@@ -57,9 +57,9 @@
 		9E0991E71812915F00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
 		9E0991EE1812915F00970C54 /* TestGitAppKetulTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitAppKetulTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0991EF1812915F00970C54 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		9E0991F71812915F00970C54 /* TestGitAppKetulTests-Info.plist */ = {isa = PBXFileReference; path = "TestGitAppKetulTests-Info.plist"; sourceTree = "<group>"; };
+		9E0991F71812915F00970C54 /* TestGitAppKetulTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestGitAppKetulTests-Info.plist"; sourceTree = "<group>"; };
 		9E0991F91812915F00970C54 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9E0991FB1812915F00970C54 /* TestGitAppKetulTests.h */ = {isa = PBXFileReference; path = TestGitAppKetulTests.h; sourceTree = "<group>"; };
+		9E0991FB1812915F00970C54 /* TestGitAppKetulTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGitAppKetulTests.h; sourceTree = "<group>"; };
 		9E0991FC1812915F00970C54 /* TestGitAppKetulTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGitAppKetulTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
